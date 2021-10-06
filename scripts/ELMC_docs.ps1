@@ -1,0 +1,1 @@
+﻿get-aduser -searchbase "OU=Juneau,OU=SEARHC Users,DC=intranet,DC=searhc,DC=org" -filter { office -like "*ETHEL*" -and description -like "*PHYSICIAN*" } | select name, samaccountname
