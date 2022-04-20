@@ -1,6 +1,5 @@
-﻿# T-X
 # by Jo Anne Wilson, 2021.05.25
-# strips O365 licenses from a list of users
+# strips O365 licenses from a list of users (note: non-functioning atm due to synching issues)
 
 $targetlist = import-csv "C:\Users\jo\dev\scripts\Terminator\expiredusersterminated-05252021.csv"
 $targets = $targetlist.samaccountname
